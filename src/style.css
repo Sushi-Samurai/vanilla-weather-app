@@ -60,3 +60,18 @@ li::first-letter {
   position: relative;
   font-size: 16px;
 }
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+  text-decoration: none;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.unit-link {
+  cursor: default;
+  text-decoration: none;
+}
