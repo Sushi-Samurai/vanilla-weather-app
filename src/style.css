@@ -1,5 +1,8 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../imgs/background1.jpg");
+  background-color: #cccccc;
+  background-size: cover;
 }
 
 h1 {
@@ -37,6 +40,8 @@ li::first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 7px;
+  background-color: #ffffff;
+  opacity: 0.9;
 }
 
 .overview {
@@ -65,6 +70,10 @@ li::first-letter {
   color: rgb(33, 33, 33);
   cursor: default;
   text-decoration: none;
+}
+
+.btn-outline-primary {
+  text-align: center;
 }
 
 .weather-temperature .active:hover {
