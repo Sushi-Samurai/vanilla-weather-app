@@ -35,6 +35,10 @@ li::first-letter {
   text-transform: capitalize;
 }
 
+.container {
+  margin-top: 100px;
+}
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
